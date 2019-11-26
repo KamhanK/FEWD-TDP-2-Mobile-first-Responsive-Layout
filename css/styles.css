@@ -1,0 +1,25 @@
+/* portfolio div styles */
+
+
+
+/* media queries */
+
+    @media only screen and (min-width: 320px) {
+        .pf-div, .pf-imgs {
+            display: inline;
+            width: 300px;
+            margin: 0px 0px 10px 10px;
+        }
+
+    @media only screen and (min-width: 768px) {
+        .pf-div, .pf-imgs {
+            display: inline;
+            width: 720px;
+        }
+
+    @media only screen and (min-width: 1024px) {
+        .container {
+            width: 1000px;
+        }
+
+}
