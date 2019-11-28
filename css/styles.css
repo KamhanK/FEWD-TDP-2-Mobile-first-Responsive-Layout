@@ -2,6 +2,9 @@
 
 * {
     box-sizing: border-box;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -15,8 +18,15 @@ header {
     padding: 1em 0;
 }
 
-main {
+main, body {
+    background-color: #FAFAFA;
+}
+
+.card {
     background-color: #FFFFFF;
+    padding-left: 25px;
+    padding-right: 25px;
+    
 }
 
 footer {
@@ -56,14 +66,26 @@ h1,
     @media only screen and (min-width: 768px) {
         
         .container {
-            width: 70%;
-            max-width: 1000px;
+            width: 768px;
             margin: 0 auto;
         }
-   
+
+        .card {
+            padding: 0 35px;
+        }
+
     }
        
 
     @media only screen and (min-width: 1024px) {
+        
+        .container {
+            width: 1024px;
+            margin: 0 auto;
+        }
+
+        .card {
+            padding: 0 35px;  
+        }
 
     }
