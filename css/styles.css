@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #FAFAFA;
 }
 
 .container {
@@ -18,15 +19,8 @@ header {
     padding: 1em 0;
 }
 
-main, body {
-    background-color: #FAFAFA;
-}
-
 .card {
     background-color: #FFFFFF;
-    padding-left: 25px;
-    padding-right: 25px;
-    
 }
 
 footer {
@@ -60,7 +54,6 @@ h1,
     max-width: 300px;
 }
 
-
 /* media queries */
 
     @media only screen and (min-width: 768px) {
@@ -70,22 +63,19 @@ h1,
             margin: 0 auto;
         }
 
+    }
+       
+    @media only screen and (min-width: 1024px) {
+        
         .card {
+            width: 1094px;
+            margin: 0 auto;
             padding: 0 35px;
         }
 
-    }
-       
-
-    @media only screen and (min-width: 1024px) {
-        
         .container {
             width: 1024px;
             margin: 0 auto;
-        }
-
-        .card {
-            padding: 0 35px;  
         }
 
     }
