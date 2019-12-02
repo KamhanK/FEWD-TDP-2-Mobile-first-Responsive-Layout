@@ -4,19 +4,23 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FAFAFA;
 }
 
 .container {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 header {
     background-color: #FAFAFA;
-    padding: 1em 0;
+    padding: 1rem 0;
 }
 
 h1 {
@@ -33,7 +37,7 @@ h1,
 
 .main-nav li{
     background-color: #FFFFFF;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .card {
