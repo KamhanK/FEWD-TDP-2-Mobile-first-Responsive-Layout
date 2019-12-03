@@ -136,6 +136,10 @@ footer {
             float: right;
         }
 
+        /* .bn-text {
+            overflow: hidden;
+        } */
+
         .clearfix::after {
             content: "";
             display: table;
