@@ -16,6 +16,7 @@ body {
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
+    max-width: 1200px;
 }
 
 header {
@@ -30,7 +31,6 @@ h1 {
 h1,
 .main-nav li{
     text-align: center;
-    display: block;
     padding: 10px 15px;
     margin: 15px 0px;
 }
@@ -38,6 +38,7 @@ h1,
 .main-nav li{
     background-color: #FFFFFF;
     font-size: 2rem;
+    display: block;
 }
 
 .card {
@@ -114,7 +115,7 @@ footer {
     @media only screen and (min-width: 768px) {
         
         .container {
-            width: 768px;
+            width: 85%;
             margin: 0 auto;
         }
 
@@ -136,9 +137,23 @@ footer {
             float: right;
         }
 
-        /* .bn-text {
+        .pf-div {
+            width: 50%;
+        }
+
+        .col-1, .col-3, .col-5 {
+            float: left;
+            padding-right: 1rem;
+        }
+
+        .col-2, .col-4, .col-6 {
+            float: right;
+            padding-left: 1rem;
+        }
+        
+        .bn-text {
             overflow: hidden;
-        } */
+        }
 
         .clearfix::after {
             content: "";
@@ -164,14 +179,13 @@ footer {
        
     @media only screen and (min-width: 1024px) {
         
-        .card {
-            width: 1094px;
-            margin: 0 auto;
-            padding: 0 35px;
-        }
+        /* .card {
+            margin-left: 35px;
+            margin-right: 35px;
+        } */
 
         .container {
-            width: 1024px;
+            width: 100%;
             margin: 0 auto;
         }
 
@@ -195,6 +209,24 @@ footer {
             margin: 0;
             display: inline-block;
             float: right;
+        }
+
+        .pf-div {
+            width: 33%;
+        }
+
+        .col-1, .col-4 {
+            float: left;
+            
+        }
+
+        .col-2, .col-3, .col-5, .col-6 {
+            float: right;
+            
+        }
+
+        .bn-text {
+            overflow: hidden;
         }
 
         .clearfix::after {
