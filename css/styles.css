@@ -58,7 +58,6 @@ h1,
     text-align: center;
     font-size: 1.25rem;
     line-height: 30px;
-
 }
 
 .pf-pic {
@@ -216,13 +215,11 @@ footer {
         }
 
         .col-1, .col-4 {
-            float: left;
-            
+            float: left;  
         }
 
         .col-2, .col-3, .col-5, .col-6 {
-            float: right;
-            
+            float: right;  
         }
 
         .bn-text {
