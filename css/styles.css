@@ -38,15 +38,16 @@ h1 {
 }
 
 h1,
-.main-nav li{
+.main-nav li {
     text-align: center;
     padding: 10px 15px;
     margin: 10px 0px;
 }
 
-.main-nav li{
+.main-nav li {
     background-color: #FFFFFF;
-    font-size: 2rem;
+    font-size: 1.12rem;
+    font-weight: bold;
     display: block;
 }
 
@@ -114,9 +115,9 @@ footer {
 .pf-div h2,
 .pf-div p,
 .ct-heading, 
-.st-name, 
+.sd-name, 
 .btt-link,
-.footer-nav {
+.footer-nav a {
     color: #4A4A4A;
 }
 
@@ -137,13 +138,20 @@ footer {
     display: none;
 }
 
-.st-name {
+.sd-name {
     float: left;
 }
 
 .btt-link {
     float: right;
     margin: 16px 0px;
+}
+
+.sd-name, 
+.btt-link,
+.footer-nav {
+    font-size: 1.12rem;
+    font-weight: bold;
 }
 
 /* media queries */
@@ -161,22 +169,45 @@ footer {
             padding: 0 5px;
         }
 
+        .name {
+            font-size: 2rem;
+            padding-left: 0px;
+        }
+
         .main-nav {
             text-align: center;
+            padding-right: 0px;
         }
 
         .main-nav li {
             display: inline-block;
+            background-color: transparent;
+        }
+
+        li.ct-li {
+            padding-right: 0px;
+        }
+
+        ul.footer-nav {
+            display: block;
+            float: right;
+            margin: 16px 0px;
         }
 
         .banner {
             float: right;
         }
 
+        .bn-text {
+            text-align: left;
+        }
+
         .pf-pic {
             margin: 0;
+            padding-right: 0px;
             display: inline-block;
             float: right;
+            max-width: 320px;
         }
 
         .pf-div {
@@ -238,6 +269,7 @@ footer {
 
         .name {
             float: left;
+            font-size: 1.5rem;
         }
 
         .main-nav {
@@ -284,12 +316,6 @@ footer {
 
         .btt-link {
             display: none;
-        }
-
-        .footer-nav {
-            display: block;
-            float: right;
-            margin: 16px;
         }
 
         .footer-nav li {
