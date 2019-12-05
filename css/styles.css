@@ -13,6 +13,10 @@ a {
     color: #7F7F7F;
 }
 
+a:hover {
+    color: #FED36E;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FAFAFA;
@@ -45,16 +49,20 @@ h1,
 }
 
 .main-nav li {
-    background-color: #FFFFFF;
+    background-color: #EDEDED;
     font-size: 1.12rem;
     font-weight: bold;
     display: block;
 }
 
+.main-nav a:hover, .footer-nav a:hover {
+    color: #FED36E;
+}
+
 .card {
-    background-color: #FFFFFF;
+    background-color: #EDEDED;
     padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 35px;
 }
 
 .pf-heading {
@@ -83,11 +91,13 @@ h1,
 }
 
 .pf-div h2 {
-    padding-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 25px;
 }
 
 .pf-div p {
-    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 55px;
 }
 
 .pf-imgs {
@@ -104,16 +114,31 @@ footer {
     line-height: 30px;
 }
 
+.skills {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.sk-table {
+    display: none;
+}
+
+.sk-tb-1024 {
+    display: none;
+}
+
 .contact {
     text-align: center;
     padding-top: 60px;
-    padding-bottom: 60px; 
+    padding-bottom: 60px;
+    border-top: 1px solid #E7E7E7;
 }
 
 .name,
 .main-nav li a,
 .pf-div h2,
 .pf-div p,
+.sk-heading,
 .ct-heading, 
 .sd-name, 
 .btt-link,
@@ -225,6 +250,16 @@ footer {
             min-height: 400px;
         }
 
+        .pf-div h2 {
+            margin-top: 42px;
+            margin-bottom: 25px;
+        }
+        
+        .pf-div p {
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+
         .bn-text {
             overflow: hidden;
         }
@@ -235,9 +270,22 @@ footer {
             clear: both;
           }
 
-        /* .footer {
-            padding: 0 5px;
-        } */
+        .sk-list {
+            display: none;
+        } 
+
+        .sk-table {
+            display: inline-block;
+        }
+
+        .sk-table ul {
+            list-style: disc;
+            text-align: left;
+        }
+
+        .sk-table td {
+            padding: 0 25px;
+        }
 
         .btt-link {
             display: none;
@@ -277,50 +325,26 @@ footer {
             float: right;
         }
 
-        .main-nav li {
-            display: inline-block;
-        }
-
-        .banner {
-            float: right;
-        }
-
-        .pf-pic {
-            margin: 0;
-            display: inline-block;
-            float: right;
-        }
-
         .pf-div {
             width: 33.33333333333%;
             padding: 0 10px;
         }
 
-        .col-1, 
-        .col-2, 
-        .col-3, 
-        .col-4, 
-        .col-5, 
-        .col-6 {
-            float: left;
-        }
-
-        .bn-text {
-            overflow: hidden;
-        }
-
-        .clearfix::after {
-            content: "";
-            display: table;
-            clear: both;
-          }
-
-        .btt-link {
+        .sk-table {
             display: none;
         }
 
-        .footer-nav li {
+        .sk-tb-1024 {
             display: inline-block;
-        } 
+        }
+
+        .sk-tb-1024 ul {
+            list-style: disc;
+            text-align: left;
+        }
+
+        .sk-tb-1024 td {
+            padding: 0 25px;
+        }
 
     }
