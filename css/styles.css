@@ -58,18 +58,6 @@ h1,
     color: #FED36E;
 }
 
-.card {
-    background-color: #EDEDED;
-    padding-top: 60px;
-    padding-bottom: 35px;
-}
-
-.pf-heading {
-    text-align: center;
-    margin: 0;
-    padding-bottom: 60px;
-}
-
 .bn-text {
     color: #7F7F7F;
     text-align: center;
@@ -83,6 +71,22 @@ h1,
     margin: 0 auto;
     padding: 20px;
     
+}
+
+main {
+    background-color: #FAFAFA;
+}
+
+.card {
+    background-color: #EDEDED;
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+
+.pf-heading {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 60px;
 }
 
 .pf-div {
@@ -123,7 +127,7 @@ h1,
     display: none;
 }
 
-.sk-tb-1024 {
+.sk-table-1024 {
     display: none;
 }
 
@@ -338,16 +342,16 @@ h1,
             display: none;
         }
 
-        .sk-tb-1024 {
+        .sk-table-1024 {
             display: inline-block;
         }
 
-        .sk-tb-1024 ul {
+        .sk-table-1024 ul {
             list-style: disc;
             text-align: left;
         }
 
-        .sk-tb-1024 td {
+        .sk-table-1024 td {
             padding: 0 25px;
         }
 
