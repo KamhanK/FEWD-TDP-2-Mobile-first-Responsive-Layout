@@ -106,7 +106,7 @@ h1,
 
 /* footer styles */
 
-footer {
+.skills, .contact, footer {
     background-color: #FAFAFA;
     color: #7F7F7F;
     text-align: center;
@@ -115,6 +115,7 @@ footer {
 }
 
 .skills {
+    text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -157,6 +158,10 @@ footer {
 
 .email {
     margin-bottom: 0px;
+}
+
+.footer-nav li {
+    margin: 0px 10px;
 }
 
 .footer-nav {
