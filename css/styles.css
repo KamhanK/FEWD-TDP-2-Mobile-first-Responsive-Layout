@@ -8,6 +8,11 @@ html {
     font-size: 16px;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FAFAFA;
+}
+
 /* Base Styles */
 
 a {
@@ -17,11 +22,6 @@ a {
 
 a:hover {
     color: #FED36E;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #FAFAFA;
 }
 
 .container {
