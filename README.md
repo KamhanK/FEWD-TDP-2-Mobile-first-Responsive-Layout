@@ -22,7 +22,7 @@ Add at least TWO additional items to to further style and enhance the portfolio:
 - Add one additional google font that is being used on the page.
 - Any additional styling for links (ie, borders, hover states).
 
-- When creating your navigation bar, use the HTML5 <nav> element for extra structure and semantic markup.
+When creating your navigation bar, use the HTML5 <nav> element for extra structure and semantic markup.
 
 **Grade Received:**
 
