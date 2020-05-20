@@ -1,5 +1,4 @@
-# FEWD-TDP-2-Mobile-First-Responsive-Layout
-## Techdegree Project 2 - Mobile-First Responsive Layout
+# Techdegree Project 2 - Mobile-First Responsive Layout
 
  **Skills Used:**
 
