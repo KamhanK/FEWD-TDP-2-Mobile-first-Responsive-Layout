@@ -4,7 +4,7 @@
 
 - HTML
 - CSS
-- Mobile-First Responsive Design
+- Mobile-First Responsive Web Design
 
 **Project Description:**
 
