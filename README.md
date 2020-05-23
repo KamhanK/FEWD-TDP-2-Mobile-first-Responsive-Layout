@@ -4,6 +4,7 @@
 
 - HTML
 - CSS
+- Google Fonts
 - Mobile-First Responsive Web Design
 
 **Project Description:**
