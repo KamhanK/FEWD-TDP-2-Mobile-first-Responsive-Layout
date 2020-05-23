@@ -9,7 +9,7 @@
 
 **Project Description:**
 
-For this project I created all of the HTML & CSS from scratch. I used a Google font for all of the text of the website. For this design I used a mobile-first approach where I designed the mobile view of this project as the basis for the base CSS. I then added media query breakpoints at 768px and 1024px and styled those breakpoints respectively. I linked the navigation menu to the correct sections of the page. I fulfilled the "exceeds expectations" requirements by adding a skills section with my own custom textual content, I changed the background color of the main content section and added additional styling for links (ie, borders, hover states). I also used semantic HTML markup for all of the respective elements.
+For this project I created all of the HTML & CSS from scratch. I used a Google font for all of the text of the website. For this design I used a mobile-first approach where I designed the mobile view of this project as the basis for the base CSS. I then added media query breakpoints at 768px and 1024px and styled those breakpoints respectively. I linked the navigation menu to the correct sections of the page. I fulfilled the "exceeds expectations" requirements by adding a skills section with my own custom textual content, I changed the background color of the main content section and added additional styling for links (ie, borders, hover states) and I also used semantic HTML markup for all of the respective elements.
 
 This project was designed according to the provided mockups.
 
